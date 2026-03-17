@@ -1,0 +1,15 @@
+# 让 Git 自动处理所有文本文件的换行符
+# 提交时转为 LF，检出时根据系统转为 CRLF (Windows) 或 LF (Mac/Linux)
+* text=auto
+
+# 明确指定某些文件是二进制，不要进行换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary
+*.pdf binary
+*.zip binary
